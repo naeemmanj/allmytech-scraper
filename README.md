@@ -5,6 +5,7 @@ cd <repo-folder>
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
+you can use this spider without activating venv
 pip install -r requirements.txt
 scrapy crawl allmy_categories -o categories.json
 scrapy crawl allmytech_product_details -o products.json
